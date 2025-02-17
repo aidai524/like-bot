@@ -1,0 +1,65 @@
+[2025-02-17T06:15:35.181Z] Bot initialized
+[2025-02-17T06:15:35.182Z] Generated wallet 1/2: 7rWPRchekfiL421MYKnnknUHBrULjFvRqhh1rEeq41bM
+[2025-02-17T06:15:35.182Z] Generated wallet 2/2: At8b1jDfEYYeSB1DFZ9bRhC9tcjNnfiPAJeonD5vnBGC
+[2025-02-17T06:15:35.184Z] Saved 2 new wallets to /Users/joe/Sites/flipn-auto-like/wallets/wallets.json
+[2025-02-17T06:15:35.184Z] Generated 2 wallets
+[2025-02-17T06:15:35.184Z] 
+=== Processing wallet 1/2: 7rWPRchekfiL421MYKnnknUHBrULjFvRqhh1rEeq41bM ===
+[2025-02-17T06:15:35.184Z] Switched to wallet: 7rWPRchekfiL421MYKnnknUHBrULjFvRqhh1rEeq41bM
+[2025-02-17T06:15:35.185Z] 
+=== Starting Batch Like ===
+[2025-02-17T06:15:35.185Z] Target Tokens (1): ["8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM"]
+[2025-02-17T06:15:35.185Z] 
+=== Processing Token ===
+[2025-02-17T06:15:35.185Z] Current Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:35.185Z] 
+=== Getting Projects ===
+[2025-02-17T06:15:35.185Z] Target Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:36.428Z] Auth Token: 65829f699f44404bb967dc57ea22d2ef2721c53dca6ef134ffb4f667c938eb2103ad8acc28ee45a98bb02d3006f47f7e6bf56e048b699e9ebd6fac466ca67479
+[2025-02-17T06:15:36.428Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project?address=8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:36.428Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "65829f699f44404bb967dc57ea22d2ef2721c53dca6ef134ffb4f667c938eb2103ad8acc28ee45a98bb02d3006f47f7e6bf56e048b699e9ebd6fac466ca67479",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:15:38.135Z] Response Status: 200
+[2025-02-17T06:15:38.135Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "22",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:15:38 GMT",
+  "server": "nginx"
+}
+[2025-02-17T06:15:38.135Z] Response Body: {"code":0,"data":null}
+[2025-02-17T06:15:38.135Z] Parsed Response: {
+  "code": 0,
+  "data": null
+}
+[2025-02-17T06:15:38.135Z] Invalid response format: {"code":0,"data":null}
+[2025-02-17T06:15:38.136Z] Found 0 projects for token 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:38.136Z] Projects: []
+[2025-02-17T06:15:38.136Z] Waiting 65.5269641858715ms before next wallet...
+[2025-02-17T06:15:38.202Z] 
+=== Processing wallet 2/2: At8b1jDfEYYeSB1DFZ9bRhC9tcjNnfiPAJeonD5vnBGC ===
+[2025-02-17T06:15:38.204Z] Switched to wallet: At8b1jDfEYYeSB1DFZ9bRhC9tcjNnfiPAJeonD5vnBGC
+[2025-02-17T06:15:38.204Z] 
+=== Starting Batch Like ===
+[2025-02-17T06:15:38.204Z] Target Tokens (1): ["8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM"]
+[2025-02-17T06:15:38.205Z] 
+=== Processing Token ===
+[2025-02-17T06:15:38.205Z] Current Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:38.205Z] 
+=== Getting Projects ===
+[2025-02-17T06:15:38.205Z] Target Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:39.326Z] Auth Token: bfe00eb8c39ac3e295ed1d028e477b75301085f8406b6d293f4a7fc83f0a2f81f787352b946bb23a80410a41a3015eb9940dac204f85c5ac668ba81f443d9e11
+[2025-02-17T06:15:39.326Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project?address=8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:15:39.326Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "bfe00eb8c39ac3e295ed1d028e477b75301085f8406b6d293f4a7fc83f0a2f81f787352b946bb23a80410a41a3015eb9940dac204f85c5ac668ba81f443d9e11",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}

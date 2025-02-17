@@ -1,0 +1,4 @@
+# ... existing entries
+.env
+.env.local
+.env.*.local 

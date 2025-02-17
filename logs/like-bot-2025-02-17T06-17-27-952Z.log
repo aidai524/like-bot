@@ -1,0 +1,639 @@
+[2025-02-17T06:17:27.988Z] Bot initialized
+[2025-02-17T06:17:27.989Z] Generated wallet 1/2: CeT35ka5pEcR61QWbC6chwaLoxWhgvqJpxiEkMkJ8aEJ
+[2025-02-17T06:17:27.989Z] Generated wallet 2/2: CVsRjefAsPERUvu5v4izrLZHuNYjpXJtZ1TwVYsFcTZg
+[2025-02-17T06:17:27.990Z] Saved 2 new wallets to /Users/joe/Sites/flipn-auto-like/wallets/wallets.json
+[2025-02-17T06:17:27.990Z] Generated 2 wallets
+[2025-02-17T06:17:27.990Z] 
+=== Processing wallet 1/2: CeT35ka5pEcR61QWbC6chwaLoxWhgvqJpxiEkMkJ8aEJ ===
+[2025-02-17T06:17:27.990Z] Switched to wallet: CeT35ka5pEcR61QWbC6chwaLoxWhgvqJpxiEkMkJ8aEJ
+[2025-02-17T06:17:27.990Z] 
+=== Starting Batch Like ===
+[2025-02-17T06:17:27.990Z] Target Tokens (1): ["8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM"]
+[2025-02-17T06:17:27.991Z] 
+=== Processing Token ===
+[2025-02-17T06:17:27.991Z] Current Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:27.991Z] 
+=== Getting Projects ===
+[2025-02-17T06:17:27.991Z] Target Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:28.581Z] Auth Token: d7bc48f120763506e8f9a85720dd7667ff50d74e439d597e834de2580cbdabfae9b66c16e5005a0070c44e8960af7adce75586ce305b50ac244823faa3114eed
+[2025-02-17T06:17:28.581Z] Request URL: https://api.dumpdump.fun/api/v1/project?address=8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:28.581Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "d7bc48f120763506e8f9a85720dd7667ff50d74e439d597e834de2580cbdabfae9b66c16e5005a0070c44e8960af7adce75586ce305b50ac244823faa3114eed",
+  "Origin": "https://test.flipn.fun",
+  "Referer": "https://test.flipn.fun/"
+}
+[2025-02-17T06:17:29.504Z] Response Status: 200
+[2025-02-17T06:17:29.504Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "1897",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:17:29 GMT",
+  "server": "nginx/1.24.0 (Ubuntu)"
+}
+[2025-02-17T06:17:29.504Z] Response Body: {"code":0,"data":[{"id":2426,"account":"AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn","account_data":{"id":217,"created_at":"2024-12-27T09:28:19Z","updated_at":"2025-02-17T00:15:57Z","address":"AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn","level":2,"vip_type":"normal","vip_expiration_time":0,"vip_start_time":0,"icon":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg","banner":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg","name":"ydnn","followers":6,"following":8,"like_num":100,"using_like_num":0,"un_like_num":69,"super_like_num":0,"using_super_like_num":0,"buy_super_like_num":0,"using_buy_super_like_num":0,"boost_num":10,"using_boost_num":0,"buy_boost_num":0,"using_buy_boost_num":0,"collect_num":0,"project_num":27,"pump_project_num":0,"proxy_fee":"0","referral_fee":"0","time":1735291699,"is_follower":false,"education":"Elementary School","buy_amount":"0"},"address":"8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM","DApp":"sexy","pool_address":"9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C","token_name":"0115","token_symbol":"0115","token_decimals":6,"token_supply":"0","initial_sol":"0","icon":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg","video":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg","ticker":"0115ticket","about_us":"7882","website":"","x":"","tg":"","discord":"","like":7,"un_like":0,"super_like":0,"pre_paid":0,"pre_paid_amount":"0","collect":0,"comment":1,"is_collect":false,"is_like":false,"is_un_like":false,"is_pre_paid":false,"boost_time":0,"status":0,"is_show":false,"concentrated_holdings":false,"initiative_launching":false,"is_king":false,"last_king_time":0,"share_num":1,"total_amount":0,"bonding_progress":11.98,"king_progress":0,"time":1736938178000,"created_at":"2025-01-15T10:49:57Z","updated_at":"2025-02-17T06:16:14Z"}]}
+[2025-02-17T06:17:29.504Z] Parsed Response: {
+  "code": 0,
+  "data": [
+    {
+      "id": 2426,
+      "account": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+      "account_data": {
+        "id": 217,
+        "created_at": "2024-12-27T09:28:19Z",
+        "updated_at": "2025-02-17T00:15:57Z",
+        "address": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+        "level": 2,
+        "vip_type": "normal",
+        "vip_expiration_time": 0,
+        "vip_start_time": 0,
+        "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg",
+        "banner": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg",
+        "name": "ydnn",
+        "followers": 6,
+        "following": 8,
+        "like_num": 100,
+        "using_like_num": 0,
+        "un_like_num": 69,
+        "super_like_num": 0,
+        "using_super_like_num": 0,
+        "buy_super_like_num": 0,
+        "using_buy_super_like_num": 0,
+        "boost_num": 10,
+        "using_boost_num": 0,
+        "buy_boost_num": 0,
+        "using_buy_boost_num": 0,
+        "collect_num": 0,
+        "project_num": 27,
+        "pump_project_num": 0,
+        "proxy_fee": "0",
+        "referral_fee": "0",
+        "time": 1735291699,
+        "is_follower": false,
+        "education": "Elementary School",
+        "buy_amount": "0"
+      },
+      "address": "8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM",
+      "DApp": "sexy",
+      "pool_address": "9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C",
+      "token_name": "0115",
+      "token_symbol": "0115",
+      "token_decimals": 6,
+      "token_supply": "0",
+      "initial_sol": "0",
+      "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+      "video": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+      "ticker": "0115ticket",
+      "about_us": "7882",
+      "website": "",
+      "x": "",
+      "tg": "",
+      "discord": "",
+      "like": 7,
+      "un_like": 0,
+      "super_like": 0,
+      "pre_paid": 0,
+      "pre_paid_amount": "0",
+      "collect": 0,
+      "comment": 1,
+      "is_collect": false,
+      "is_like": false,
+      "is_un_like": false,
+      "is_pre_paid": false,
+      "boost_time": 0,
+      "status": 0,
+      "is_show": false,
+      "concentrated_holdings": false,
+      "initiative_launching": false,
+      "is_king": false,
+      "last_king_time": 0,
+      "share_num": 1,
+      "total_amount": 0,
+      "bonding_progress": 11.98,
+      "king_progress": 0,
+      "time": 1736938178000,
+      "created_at": "2025-01-15T10:49:57Z",
+      "updated_at": "2025-02-17T06:16:14Z"
+    }
+  ]
+}
+[2025-02-17T06:17:29.505Z] Found 1 projects
+[2025-02-17T06:17:29.505Z] Found 1 projects for token 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:29.505Z] Projects: [
+  {
+    "id": 2426,
+    "account": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+    "account_data": {
+      "id": 217,
+      "created_at": "2024-12-27T09:28:19Z",
+      "updated_at": "2025-02-17T00:15:57Z",
+      "address": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+      "level": 2,
+      "vip_type": "normal",
+      "vip_expiration_time": 0,
+      "vip_start_time": 0,
+      "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg",
+      "banner": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg",
+      "name": "ydnn",
+      "followers": 6,
+      "following": 8,
+      "like_num": 100,
+      "using_like_num": 0,
+      "un_like_num": 69,
+      "super_like_num": 0,
+      "using_super_like_num": 0,
+      "buy_super_like_num": 0,
+      "using_buy_super_like_num": 0,
+      "boost_num": 10,
+      "using_boost_num": 0,
+      "buy_boost_num": 0,
+      "using_buy_boost_num": 0,
+      "collect_num": 0,
+      "project_num": 27,
+      "pump_project_num": 0,
+      "proxy_fee": "0",
+      "referral_fee": "0",
+      "time": 1735291699,
+      "is_follower": false,
+      "education": "Elementary School",
+      "buy_amount": "0"
+    },
+    "address": "8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM",
+    "DApp": "sexy",
+    "pool_address": "9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C",
+    "token_name": "0115",
+    "token_symbol": "0115",
+    "token_decimals": 6,
+    "token_supply": "0",
+    "initial_sol": "0",
+    "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+    "video": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+    "ticker": "0115ticket",
+    "about_us": "7882",
+    "website": "",
+    "x": "",
+    "tg": "",
+    "discord": "",
+    "like": 7,
+    "un_like": 0,
+    "super_like": 0,
+    "pre_paid": 0,
+    "pre_paid_amount": "0",
+    "collect": 0,
+    "comment": 1,
+    "is_collect": false,
+    "is_like": false,
+    "is_un_like": false,
+    "is_pre_paid": false,
+    "boost_time": 0,
+    "status": 0,
+    "is_show": false,
+    "concentrated_holdings": false,
+    "initiative_launching": false,
+    "is_king": false,
+    "last_king_time": 0,
+    "share_num": 1,
+    "total_amount": 0,
+    "bonding_progress": 11.98,
+    "king_progress": 0,
+    "time": 1736938178000,
+    "created_at": "2025-01-15T10:49:57Z",
+    "updated_at": "2025-02-17T06:16:14Z"
+  }
+]
+[2025-02-17T06:17:29.505Z] 
+=== Processing Project ===
+[2025-02-17T06:17:29.505Z] Project: {
+  "id": 2426,
+  "account": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+  "account_data": {
+    "id": 217,
+    "created_at": "2024-12-27T09:28:19Z",
+    "updated_at": "2025-02-17T00:15:57Z",
+    "address": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+    "level": 2,
+    "vip_type": "normal",
+    "vip_expiration_time": 0,
+    "vip_start_time": 0,
+    "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg",
+    "banner": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg",
+    "name": "ydnn",
+    "followers": 6,
+    "following": 8,
+    "like_num": 100,
+    "using_like_num": 0,
+    "un_like_num": 69,
+    "super_like_num": 0,
+    "using_super_like_num": 0,
+    "buy_super_like_num": 0,
+    "using_buy_super_like_num": 0,
+    "boost_num": 10,
+    "using_boost_num": 0,
+    "buy_boost_num": 0,
+    "using_buy_boost_num": 0,
+    "collect_num": 0,
+    "project_num": 27,
+    "pump_project_num": 0,
+    "proxy_fee": "0",
+    "referral_fee": "0",
+    "time": 1735291699,
+    "is_follower": false,
+    "education": "Elementary School",
+    "buy_amount": "0"
+  },
+  "address": "8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM",
+  "DApp": "sexy",
+  "pool_address": "9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C",
+  "token_name": "0115",
+  "token_symbol": "0115",
+  "token_decimals": 6,
+  "token_supply": "0",
+  "initial_sol": "0",
+  "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+  "video": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+  "ticker": "0115ticket",
+  "about_us": "7882",
+  "website": "",
+  "x": "",
+  "tg": "",
+  "discord": "",
+  "like": 7,
+  "un_like": 0,
+  "super_like": 0,
+  "pre_paid": 0,
+  "pre_paid_amount": "0",
+  "collect": 0,
+  "comment": 1,
+  "is_collect": false,
+  "is_like": false,
+  "is_un_like": false,
+  "is_pre_paid": false,
+  "boost_time": 0,
+  "status": 0,
+  "is_show": false,
+  "concentrated_holdings": false,
+  "initiative_launching": false,
+  "is_king": false,
+  "last_king_time": 0,
+  "share_num": 1,
+  "total_amount": 0,
+  "bonding_progress": 11.98,
+  "king_progress": 0,
+  "time": 1736938178000,
+  "created_at": "2025-01-15T10:49:57Z",
+  "updated_at": "2025-02-17T06:16:14Z"
+}
+[2025-02-17T06:17:29.505Z] 
+=== Liking Project ===
+[2025-02-17T06:17:29.505Z] Project ID: 2426
+[2025-02-17T06:17:29.505Z] Auth Token: d7bc48f120763506e8f9a85720dd7667ff50d74e439d597e834de2580cbdabfae9b66c16e5005a0070c44e8960af7adce75586ce305b50ac244823faa3114eed
+[2025-02-17T06:17:29.505Z] Request URL: https://api.dumpdump.fun/api/v1/project/like
+[2025-02-17T06:17:29.505Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "d7bc48f120763506e8f9a85720dd7667ff50d74e439d597e834de2580cbdabfae9b66c16e5005a0070c44e8960af7adce75586ce305b50ac244823faa3114eed",
+  "Origin": "https://test.flipn.fun",
+  "Referer": "https://test.flipn.fun/"
+}
+[2025-02-17T06:17:29.505Z] Request Body: {"id":2426}
+[2025-02-17T06:17:32.128Z] Response Status: 200
+[2025-02-17T06:17:32.129Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "79",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:17:32 GMT",
+  "server": "nginx/1.24.0 (Ubuntu)"
+}
+[2025-02-17T06:17:32.129Z] Response Body: {"code":0,"data":{"likeNum":0,"point":"0.0000553324914026","projectLikeNum":8}}
+[2025-02-17T06:17:32.129Z] Parsed Response: {
+  "code": 0,
+  "data": {
+    "likeNum": 0,
+    "point": "0.0000553324914026",
+    "projectLikeNum": 8
+  }
+}
+[2025-02-17T06:17:32.129Z] Waiting 100ms before next like...
+[2025-02-17T06:17:32.230Z] Waiting 57.45614248060921ms before next wallet...
+[2025-02-17T06:17:32.288Z] 
+=== Processing wallet 2/2: CVsRjefAsPERUvu5v4izrLZHuNYjpXJtZ1TwVYsFcTZg ===
+[2025-02-17T06:17:32.289Z] Switched to wallet: CVsRjefAsPERUvu5v4izrLZHuNYjpXJtZ1TwVYsFcTZg
+[2025-02-17T06:17:32.289Z] 
+=== Starting Batch Like ===
+[2025-02-17T06:17:32.289Z] Target Tokens (1): ["8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM"]
+[2025-02-17T06:17:32.289Z] 
+=== Processing Token ===
+[2025-02-17T06:17:32.289Z] Current Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:32.289Z] 
+=== Getting Projects ===
+[2025-02-17T06:17:32.289Z] Target Token: 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:32.739Z] Auth Token: 45b6b638b3183f6a18820e57a71960c0e588390476261f275ddcdf2c70355997db43bfd394b6d460dad203bea4b545ec16c1d496feb9c01503bfe35130a0bf38
+[2025-02-17T06:17:32.739Z] Request URL: https://api.dumpdump.fun/api/v1/project?address=8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:32.739Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "45b6b638b3183f6a18820e57a71960c0e588390476261f275ddcdf2c70355997db43bfd394b6d460dad203bea4b545ec16c1d496feb9c01503bfe35130a0bf38",
+  "Origin": "https://test.flipn.fun",
+  "Referer": "https://test.flipn.fun/"
+}
+[2025-02-17T06:17:33.664Z] Response Status: 200
+[2025-02-17T06:17:33.664Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "1897",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:17:33 GMT",
+  "server": "nginx/1.24.0 (Ubuntu)"
+}
+[2025-02-17T06:17:33.665Z] Response Body: {"code":0,"data":[{"id":2426,"account":"AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn","account_data":{"id":217,"created_at":"2024-12-27T09:28:19Z","updated_at":"2025-02-17T00:15:57Z","address":"AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn","level":2,"vip_type":"normal","vip_expiration_time":0,"vip_start_time":0,"icon":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg","banner":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg","name":"ydnn","followers":6,"following":8,"like_num":100,"using_like_num":0,"un_like_num":69,"super_like_num":0,"using_super_like_num":0,"buy_super_like_num":0,"using_buy_super_like_num":0,"boost_num":10,"using_boost_num":0,"buy_boost_num":0,"using_buy_boost_num":0,"collect_num":0,"project_num":27,"pump_project_num":0,"proxy_fee":"0","referral_fee":"0","time":1735291699,"is_follower":false,"education":"Elementary School","buy_amount":"0"},"address":"8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM","DApp":"sexy","pool_address":"9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C","token_name":"0115","token_symbol":"0115","token_decimals":6,"token_supply":"0","initial_sol":"0","icon":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg","video":"https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg","ticker":"0115ticket","about_us":"7882","website":"","x":"","tg":"","discord":"","like":8,"un_like":0,"super_like":0,"pre_paid":0,"pre_paid_amount":"0","collect":0,"comment":1,"is_collect":false,"is_like":false,"is_un_like":false,"is_pre_paid":false,"boost_time":0,"status":0,"is_show":false,"concentrated_holdings":false,"initiative_launching":false,"is_king":false,"last_king_time":0,"share_num":1,"total_amount":0,"bonding_progress":11.98,"king_progress":0,"time":1736938178000,"created_at":"2025-01-15T10:49:57Z","updated_at":"2025-02-17T06:17:30Z"}]}
+[2025-02-17T06:17:33.665Z] Parsed Response: {
+  "code": 0,
+  "data": [
+    {
+      "id": 2426,
+      "account": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+      "account_data": {
+        "id": 217,
+        "created_at": "2024-12-27T09:28:19Z",
+        "updated_at": "2025-02-17T00:15:57Z",
+        "address": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+        "level": 2,
+        "vip_type": "normal",
+        "vip_expiration_time": 0,
+        "vip_start_time": 0,
+        "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg",
+        "banner": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg",
+        "name": "ydnn",
+        "followers": 6,
+        "following": 8,
+        "like_num": 100,
+        "using_like_num": 0,
+        "un_like_num": 69,
+        "super_like_num": 0,
+        "using_super_like_num": 0,
+        "buy_super_like_num": 0,
+        "using_buy_super_like_num": 0,
+        "boost_num": 10,
+        "using_boost_num": 0,
+        "buy_boost_num": 0,
+        "using_buy_boost_num": 0,
+        "collect_num": 0,
+        "project_num": 27,
+        "pump_project_num": 0,
+        "proxy_fee": "0",
+        "referral_fee": "0",
+        "time": 1735291699,
+        "is_follower": false,
+        "education": "Elementary School",
+        "buy_amount": "0"
+      },
+      "address": "8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM",
+      "DApp": "sexy",
+      "pool_address": "9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C",
+      "token_name": "0115",
+      "token_symbol": "0115",
+      "token_decimals": 6,
+      "token_supply": "0",
+      "initial_sol": "0",
+      "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+      "video": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+      "ticker": "0115ticket",
+      "about_us": "7882",
+      "website": "",
+      "x": "",
+      "tg": "",
+      "discord": "",
+      "like": 8,
+      "un_like": 0,
+      "super_like": 0,
+      "pre_paid": 0,
+      "pre_paid_amount": "0",
+      "collect": 0,
+      "comment": 1,
+      "is_collect": false,
+      "is_like": false,
+      "is_un_like": false,
+      "is_pre_paid": false,
+      "boost_time": 0,
+      "status": 0,
+      "is_show": false,
+      "concentrated_holdings": false,
+      "initiative_launching": false,
+      "is_king": false,
+      "last_king_time": 0,
+      "share_num": 1,
+      "total_amount": 0,
+      "bonding_progress": 11.98,
+      "king_progress": 0,
+      "time": 1736938178000,
+      "created_at": "2025-01-15T10:49:57Z",
+      "updated_at": "2025-02-17T06:17:30Z"
+    }
+  ]
+}
+[2025-02-17T06:17:33.665Z] Found 1 projects
+[2025-02-17T06:17:33.665Z] Found 1 projects for token 8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM
+[2025-02-17T06:17:33.666Z] Projects: [
+  {
+    "id": 2426,
+    "account": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+    "account_data": {
+      "id": 217,
+      "created_at": "2024-12-27T09:28:19Z",
+      "updated_at": "2025-02-17T00:15:57Z",
+      "address": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+      "level": 2,
+      "vip_type": "normal",
+      "vip_expiration_time": 0,
+      "vip_start_time": 0,
+      "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg",
+      "banner": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg",
+      "name": "ydnn",
+      "followers": 6,
+      "following": 8,
+      "like_num": 100,
+      "using_like_num": 0,
+      "un_like_num": 69,
+      "super_like_num": 0,
+      "using_super_like_num": 0,
+      "buy_super_like_num": 0,
+      "using_buy_super_like_num": 0,
+      "boost_num": 10,
+      "using_boost_num": 0,
+      "buy_boost_num": 0,
+      "using_buy_boost_num": 0,
+      "collect_num": 0,
+      "project_num": 27,
+      "pump_project_num": 0,
+      "proxy_fee": "0",
+      "referral_fee": "0",
+      "time": 1735291699,
+      "is_follower": false,
+      "education": "Elementary School",
+      "buy_amount": "0"
+    },
+    "address": "8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM",
+    "DApp": "sexy",
+    "pool_address": "9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C",
+    "token_name": "0115",
+    "token_symbol": "0115",
+    "token_decimals": 6,
+    "token_supply": "0",
+    "initial_sol": "0",
+    "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+    "video": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+    "ticker": "0115ticket",
+    "about_us": "7882",
+    "website": "",
+    "x": "",
+    "tg": "",
+    "discord": "",
+    "like": 8,
+    "un_like": 0,
+    "super_like": 0,
+    "pre_paid": 0,
+    "pre_paid_amount": "0",
+    "collect": 0,
+    "comment": 1,
+    "is_collect": false,
+    "is_like": false,
+    "is_un_like": false,
+    "is_pre_paid": false,
+    "boost_time": 0,
+    "status": 0,
+    "is_show": false,
+    "concentrated_holdings": false,
+    "initiative_launching": false,
+    "is_king": false,
+    "last_king_time": 0,
+    "share_num": 1,
+    "total_amount": 0,
+    "bonding_progress": 11.98,
+    "king_progress": 0,
+    "time": 1736938178000,
+    "created_at": "2025-01-15T10:49:57Z",
+    "updated_at": "2025-02-17T06:17:30Z"
+  }
+]
+[2025-02-17T06:17:33.666Z] 
+=== Processing Project ===
+[2025-02-17T06:17:33.666Z] Project: {
+  "id": 2426,
+  "account": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+  "account_data": {
+    "id": 217,
+    "created_at": "2024-12-27T09:28:19Z",
+    "updated_at": "2025-02-17T00:15:57Z",
+    "address": "AjqJ9UBTSugHjph8R9V9UY57WeYpeKYZxX4QRs73ydnn",
+    "level": 2,
+    "vip_type": "normal",
+    "vip_expiration_time": 0,
+    "vip_start_time": 0,
+    "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/dNrZtVSZYxIMG_8061.jpeg",
+    "banner": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/peLLTSKzg8IMG_4852.jpeg",
+    "name": "ydnn",
+    "followers": 6,
+    "following": 8,
+    "like_num": 100,
+    "using_like_num": 0,
+    "un_like_num": 69,
+    "super_like_num": 0,
+    "using_super_like_num": 0,
+    "buy_super_like_num": 0,
+    "using_buy_super_like_num": 0,
+    "boost_num": 10,
+    "using_boost_num": 0,
+    "buy_boost_num": 0,
+    "using_buy_boost_num": 0,
+    "collect_num": 0,
+    "project_num": 27,
+    "pump_project_num": 0,
+    "proxy_fee": "0",
+    "referral_fee": "0",
+    "time": 1735291699,
+    "is_follower": false,
+    "education": "Elementary School",
+    "buy_amount": "0"
+  },
+  "address": "8rfmQgXxMDSxT6TppDMTy1WytS8Cmm64b5M1R8UiSZPM",
+  "DApp": "sexy",
+  "pool_address": "9FSaTWNjQ1U4x2UswPZqJWfFZTYYK5oQcgD5fonn7q3C",
+  "token_name": "0115",
+  "token_symbol": "0115",
+  "token_decimals": 6,
+  "token_supply": "0",
+  "initial_sol": "0",
+  "icon": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+  "video": "https://deltabot-1.s3.us-east-1.amazonaws.com/sexy/dev/rVxVbC5AdWIMG_8392.jpeg",
+  "ticker": "0115ticket",
+  "about_us": "7882",
+  "website": "",
+  "x": "",
+  "tg": "",
+  "discord": "",
+  "like": 8,
+  "un_like": 0,
+  "super_like": 0,
+  "pre_paid": 0,
+  "pre_paid_amount": "0",
+  "collect": 0,
+  "comment": 1,
+  "is_collect": false,
+  "is_like": false,
+  "is_un_like": false,
+  "is_pre_paid": false,
+  "boost_time": 0,
+  "status": 0,
+  "is_show": false,
+  "concentrated_holdings": false,
+  "initiative_launching": false,
+  "is_king": false,
+  "last_king_time": 0,
+  "share_num": 1,
+  "total_amount": 0,
+  "bonding_progress": 11.98,
+  "king_progress": 0,
+  "time": 1736938178000,
+  "created_at": "2025-01-15T10:49:57Z",
+  "updated_at": "2025-02-17T06:17:30Z"
+}
+[2025-02-17T06:17:33.666Z] 
+=== Liking Project ===
+[2025-02-17T06:17:33.666Z] Project ID: 2426
+[2025-02-17T06:17:33.666Z] Auth Token: 45b6b638b3183f6a18820e57a71960c0e588390476261f275ddcdf2c70355997db43bfd394b6d460dad203bea4b545ec16c1d496feb9c01503bfe35130a0bf38
+[2025-02-17T06:17:33.666Z] Request URL: https://api.dumpdump.fun/api/v1/project/like
+[2025-02-17T06:17:33.666Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "45b6b638b3183f6a18820e57a71960c0e588390476261f275ddcdf2c70355997db43bfd394b6d460dad203bea4b545ec16c1d496feb9c01503bfe35130a0bf38",
+  "Origin": "https://test.flipn.fun",
+  "Referer": "https://test.flipn.fun/"
+}
+[2025-02-17T06:17:33.666Z] Request Body: {"id":2426}
+[2025-02-17T06:17:36.154Z] Response Status: 200
+[2025-02-17T06:17:36.154Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "79",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:17:36 GMT",
+  "server": "nginx/1.24.0 (Ubuntu)"
+}
+[2025-02-17T06:17:36.154Z] Response Body: {"code":0,"data":{"likeNum":0,"point":"0.0000553324914026","projectLikeNum":9}}
+[2025-02-17T06:17:36.154Z] Parsed Response: {
+  "code": 0,
+  "data": {
+    "likeNum": 0,
+    "point": "0.0000553324914026",
+    "projectLikeNum": 9
+  }
+}
+[2025-02-17T06:17:36.154Z] Waiting 100ms before next like...
+[2025-02-17T06:17:36.256Z] Waiting 63.12169574557643ms before next wallet...

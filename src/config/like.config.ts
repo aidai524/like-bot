@@ -1,10 +1,13 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+// 从环境变量读取并处理目标列表
+const targetTokens = (process.env.TARGET_LIST || '').split(',').filter(token => token.trim());
+
 export const likeConfig = {
-    // 要点赞的目标token列表
-    targetTokens: [
-        '2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL',
-        'E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm',
-        '28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz',
-    ],
+    // 从环境变量读取目标token列表
+    targetTokens,
     // 延迟配置
     delays: {
         wallet: {

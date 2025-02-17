@@ -1,0 +1,712 @@
+[2025-02-17T06:03:53.641Z] Bot initialized
+[2025-02-17T06:03:53.642Z] Generated wallet 1/2: 3bG8yDhovnCQ21iXhzd8oaa7gahj6CG86BgkSzb4X7vM
+[2025-02-17T06:03:53.642Z] Generated wallet 2/2: 3Xedzg9yEesAwF97HoSmxoWjZGj6A3br6XbeQ2EDkMun
+[2025-02-17T06:03:53.642Z] Saved 2 new wallets to /Users/joe/Sites/flipn-auto-like/wallets/wallets.json
+[2025-02-17T06:03:53.642Z] Generated 2 wallets
+[2025-02-17T06:03:53.642Z] 
+=== Processing wallet 1/2: 3bG8yDhovnCQ21iXhzd8oaa7gahj6CG86BgkSzb4X7vM ===
+[2025-02-17T06:03:53.643Z] Switched to wallet: 3bG8yDhovnCQ21iXhzd8oaa7gahj6CG86BgkSzb4X7vM
+[2025-02-17T06:03:53.643Z] 
+=== Starting Batch Like ===
+[2025-02-17T06:03:53.643Z] Target Tokens (3): ["2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL","E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm","28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz"]
+[2025-02-17T06:03:53.643Z] 
+=== Processing Token ===
+[2025-02-17T06:03:53.643Z] Current Token: 2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:03:53.643Z] 
+=== Getting Projects ===
+[2025-02-17T06:03:53.643Z] Target Token: 2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:03:55.055Z] Auth Token: 7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706
+[2025-02-17T06:03:55.055Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project?address=2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:03:55.055Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:03:57.273Z] Response Status: 200
+[2025-02-17T06:03:57.273Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-encoding": "gzip",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:03:57 GMT",
+  "server": "nginx",
+  "transfer-encoding": "chunked",
+  "vary": "Accept-Encoding"
+}
+[2025-02-17T06:03:57.273Z] Response Body: {"code":0,"data":[{"created_at":1738751511000,"updated_at":1739760400000,"id":988455,"account":"3aPjLKaEvuTU2DfmGEE2Wjh24VKN3wkMmwoicJCV7sPa","account_data":{"created_at":1738728888000,"updated_at":1739754001000,"id":1085},"address":"2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL","DApp":"sexy","pool_address":"PLjLT2ryicF2BanVa8Ev4SKCnhuDMkthMN1tr85Bpiq","token_name":"Too deep","token_symbol":"DEEP","token_decimals":6,"token_supply":"0","initial_sol":"0","icon":"https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/cOPZq11.png","video":"https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/73qcb11.mp4","ticker":"deep","about_us":"\"Dammit, I have four-paw drive, how am I having this much trouble?! My ancestors would laugh at me like I was named Moon-Moon!\"","website":"","x":"","tg":"","discord":"","like":26,"un_like":0,"super_like":0,"pre_paid":0,"pre_paid_amount":"0","collect":0,"comment":0,"is_collect":false,"is_like":false,"is_un_like":false,"is_pre_paid":false,"boost_time":0,"status":1,"is_show":false,"concentrated_holdings":false,"initiative_launching":false,"is_king":false,"last_king_time":0,"share_num":0,"total_amount":0,"bonding_progress":11.98,"king_progress":0,"time":1738751503000}]}
+[2025-02-17T06:03:57.274Z] Parsed Response: {
+  "code": 0,
+  "data": [
+    {
+      "created_at": 1738751511000,
+      "updated_at": 1739760400000,
+      "id": 988455,
+      "account": "3aPjLKaEvuTU2DfmGEE2Wjh24VKN3wkMmwoicJCV7sPa",
+      "account_data": {
+        "created_at": 1738728888000,
+        "updated_at": 1739754001000,
+        "id": 1085
+      },
+      "address": "2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL",
+      "DApp": "sexy",
+      "pool_address": "PLjLT2ryicF2BanVa8Ev4SKCnhuDMkthMN1tr85Bpiq",
+      "token_name": "Too deep",
+      "token_symbol": "DEEP",
+      "token_decimals": 6,
+      "token_supply": "0",
+      "initial_sol": "0",
+      "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/cOPZq11.png",
+      "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/73qcb11.mp4",
+      "ticker": "deep",
+      "about_us": "\"Dammit, I have four-paw drive, how am I having this much trouble?! My ancestors would laugh at me like I was named Moon-Moon!\"",
+      "website": "",
+      "x": "",
+      "tg": "",
+      "discord": "",
+      "like": 26,
+      "un_like": 0,
+      "super_like": 0,
+      "pre_paid": 0,
+      "pre_paid_amount": "0",
+      "collect": 0,
+      "comment": 0,
+      "is_collect": false,
+      "is_like": false,
+      "is_un_like": false,
+      "is_pre_paid": false,
+      "boost_time": 0,
+      "status": 1,
+      "is_show": false,
+      "concentrated_holdings": false,
+      "initiative_launching": false,
+      "is_king": false,
+      "last_king_time": 0,
+      "share_num": 0,
+      "total_amount": 0,
+      "bonding_progress": 11.98,
+      "king_progress": 0,
+      "time": 1738751503000
+    }
+  ]
+}
+[2025-02-17T06:03:57.274Z] Found 1 projects
+[2025-02-17T06:03:57.274Z] Found 1 projects for token 2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:03:57.274Z] Projects: [
+  {
+    "created_at": 1738751511000,
+    "updated_at": 1739760400000,
+    "id": 988455,
+    "account": "3aPjLKaEvuTU2DfmGEE2Wjh24VKN3wkMmwoicJCV7sPa",
+    "account_data": {
+      "created_at": 1738728888000,
+      "updated_at": 1739754001000,
+      "id": 1085
+    },
+    "address": "2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL",
+    "DApp": "sexy",
+    "pool_address": "PLjLT2ryicF2BanVa8Ev4SKCnhuDMkthMN1tr85Bpiq",
+    "token_name": "Too deep",
+    "token_symbol": "DEEP",
+    "token_decimals": 6,
+    "token_supply": "0",
+    "initial_sol": "0",
+    "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/cOPZq11.png",
+    "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/73qcb11.mp4",
+    "ticker": "deep",
+    "about_us": "\"Dammit, I have four-paw drive, how am I having this much trouble?! My ancestors would laugh at me like I was named Moon-Moon!\"",
+    "website": "",
+    "x": "",
+    "tg": "",
+    "discord": "",
+    "like": 26,
+    "un_like": 0,
+    "super_like": 0,
+    "pre_paid": 0,
+    "pre_paid_amount": "0",
+    "collect": 0,
+    "comment": 0,
+    "is_collect": false,
+    "is_like": false,
+    "is_un_like": false,
+    "is_pre_paid": false,
+    "boost_time": 0,
+    "status": 1,
+    "is_show": false,
+    "concentrated_holdings": false,
+    "initiative_launching": false,
+    "is_king": false,
+    "last_king_time": 0,
+    "share_num": 0,
+    "total_amount": 0,
+    "bonding_progress": 11.98,
+    "king_progress": 0,
+    "time": 1738751503000
+  }
+]
+[2025-02-17T06:03:57.274Z] 
+=== Processing Project ===
+[2025-02-17T06:03:57.274Z] Project: {
+  "created_at": 1738751511000,
+  "updated_at": 1739760400000,
+  "id": 988455,
+  "account": "3aPjLKaEvuTU2DfmGEE2Wjh24VKN3wkMmwoicJCV7sPa",
+  "account_data": {
+    "created_at": 1738728888000,
+    "updated_at": 1739754001000,
+    "id": 1085
+  },
+  "address": "2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL",
+  "DApp": "sexy",
+  "pool_address": "PLjLT2ryicF2BanVa8Ev4SKCnhuDMkthMN1tr85Bpiq",
+  "token_name": "Too deep",
+  "token_symbol": "DEEP",
+  "token_decimals": 6,
+  "token_supply": "0",
+  "initial_sol": "0",
+  "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/cOPZq11.png",
+  "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/73qcb11.mp4",
+  "ticker": "deep",
+  "about_us": "\"Dammit, I have four-paw drive, how am I having this much trouble?! My ancestors would laugh at me like I was named Moon-Moon!\"",
+  "website": "",
+  "x": "",
+  "tg": "",
+  "discord": "",
+  "like": 26,
+  "un_like": 0,
+  "super_like": 0,
+  "pre_paid": 0,
+  "pre_paid_amount": "0",
+  "collect": 0,
+  "comment": 0,
+  "is_collect": false,
+  "is_like": false,
+  "is_un_like": false,
+  "is_pre_paid": false,
+  "boost_time": 0,
+  "status": 1,
+  "is_show": false,
+  "concentrated_holdings": false,
+  "initiative_launching": false,
+  "is_king": false,
+  "last_king_time": 0,
+  "share_num": 0,
+  "total_amount": 0,
+  "bonding_progress": 11.98,
+  "king_progress": 0,
+  "time": 1738751503000
+}
+[2025-02-17T06:03:57.274Z] 
+=== Liking Project ===
+[2025-02-17T06:03:57.274Z] Project ID: 988455
+[2025-02-17T06:03:57.274Z] Auth Token: 7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706
+[2025-02-17T06:03:57.274Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project/like
+[2025-02-17T06:03:57.274Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:03:57.274Z] Request Body: {"id":988455}
+[2025-02-17T06:04:04.442Z] Response Status: 200
+[2025-02-17T06:04:04.443Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "80",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:04:04 GMT",
+  "server": "nginx"
+}
+[2025-02-17T06:04:04.443Z] Response Body: {"code":0,"data":{"likeNum":0,"point":"0.0000685785225211","projectLikeNum":27}}
+[2025-02-17T06:04:04.443Z] Parsed Response: {
+  "code": 0,
+  "data": {
+    "likeNum": 0,
+    "point": "0.0000685785225211",
+    "projectLikeNum": 27
+  }
+}
+[2025-02-17T06:04:04.443Z] Waiting 100ms before next like...
+[2025-02-17T06:04:04.545Z] 
+=== Processing Token ===
+[2025-02-17T06:04:04.546Z] Current Token: E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:04.546Z] 
+=== Getting Projects ===
+[2025-02-17T06:04:04.546Z] Target Token: E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:04.546Z] Auth Token: 7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706
+[2025-02-17T06:04:04.546Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project?address=E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:04.546Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:04:06.689Z] Response Status: 200
+[2025-02-17T06:04:06.689Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-encoding": "gzip",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:04:06 GMT",
+  "server": "nginx",
+  "transfer-encoding": "chunked",
+  "vary": "Accept-Encoding"
+}
+[2025-02-17T06:04:06.690Z] Response Body: {"code":0,"data":[{"created_at":1738470013000,"updated_at":1739760409000,"id":988365,"account":"GMQhoFBWzN5f3EdjBgC2CFMD2Y1fjoBKaCnEeT68d4mi","account_data":{"created_at":1737555643000,"updated_at":1739754001000,"id":546},"address":"E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm","DApp":"sexy","pool_address":"67Uqa7jAVkscwBJMdVevcR7ahxnAVSPsywbUoeBLMmfQ","token_name":"WarhammeYG","token_symbol":"WARHAMMEYG","token_decimals":6,"token_supply":"0","initial_sol":"0","icon":"https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg","video":"https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg","ticker":"YandG","about_us":"They are soul mates and have some kind of fate.","website":"","x":"","tg":"","discord":"","like":29,"un_like":0,"super_like":0,"pre_paid":0,"pre_paid_amount":"0","collect":0,"comment":0,"is_collect":false,"is_like":false,"is_un_like":false,"is_pre_paid":false,"boost_time":0,"status":1,"is_show":false,"concentrated_holdings":false,"initiative_launching":false,"is_king":false,"last_king_time":0,"share_num":0,"total_amount":0,"bonding_progress":11.98,"king_progress":0,"time":1738470005000}]}
+[2025-02-17T06:04:06.690Z] Parsed Response: {
+  "code": 0,
+  "data": [
+    {
+      "created_at": 1738470013000,
+      "updated_at": 1739760409000,
+      "id": 988365,
+      "account": "GMQhoFBWzN5f3EdjBgC2CFMD2Y1fjoBKaCnEeT68d4mi",
+      "account_data": {
+        "created_at": 1737555643000,
+        "updated_at": 1739754001000,
+        "id": 546
+      },
+      "address": "E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm",
+      "DApp": "sexy",
+      "pool_address": "67Uqa7jAVkscwBJMdVevcR7ahxnAVSPsywbUoeBLMmfQ",
+      "token_name": "WarhammeYG",
+      "token_symbol": "WARHAMMEYG",
+      "token_decimals": 6,
+      "token_supply": "0",
+      "initial_sol": "0",
+      "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg",
+      "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg",
+      "ticker": "YandG",
+      "about_us": "They are soul mates and have some kind of fate.",
+      "website": "",
+      "x": "",
+      "tg": "",
+      "discord": "",
+      "like": 29,
+      "un_like": 0,
+      "super_like": 0,
+      "pre_paid": 0,
+      "pre_paid_amount": "0",
+      "collect": 0,
+      "comment": 0,
+      "is_collect": false,
+      "is_like": false,
+      "is_un_like": false,
+      "is_pre_paid": false,
+      "boost_time": 0,
+      "status": 1,
+      "is_show": false,
+      "concentrated_holdings": false,
+      "initiative_launching": false,
+      "is_king": false,
+      "last_king_time": 0,
+      "share_num": 0,
+      "total_amount": 0,
+      "bonding_progress": 11.98,
+      "king_progress": 0,
+      "time": 1738470005000
+    }
+  ]
+}
+[2025-02-17T06:04:06.691Z] Found 1 projects
+[2025-02-17T06:04:06.691Z] Found 1 projects for token E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:06.691Z] Projects: [
+  {
+    "created_at": 1738470013000,
+    "updated_at": 1739760409000,
+    "id": 988365,
+    "account": "GMQhoFBWzN5f3EdjBgC2CFMD2Y1fjoBKaCnEeT68d4mi",
+    "account_data": {
+      "created_at": 1737555643000,
+      "updated_at": 1739754001000,
+      "id": 546
+    },
+    "address": "E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm",
+    "DApp": "sexy",
+    "pool_address": "67Uqa7jAVkscwBJMdVevcR7ahxnAVSPsywbUoeBLMmfQ",
+    "token_name": "WarhammeYG",
+    "token_symbol": "WARHAMMEYG",
+    "token_decimals": 6,
+    "token_supply": "0",
+    "initial_sol": "0",
+    "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg",
+    "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg",
+    "ticker": "YandG",
+    "about_us": "They are soul mates and have some kind of fate.",
+    "website": "",
+    "x": "",
+    "tg": "",
+    "discord": "",
+    "like": 29,
+    "un_like": 0,
+    "super_like": 0,
+    "pre_paid": 0,
+    "pre_paid_amount": "0",
+    "collect": 0,
+    "comment": 0,
+    "is_collect": false,
+    "is_like": false,
+    "is_un_like": false,
+    "is_pre_paid": false,
+    "boost_time": 0,
+    "status": 1,
+    "is_show": false,
+    "concentrated_holdings": false,
+    "initiative_launching": false,
+    "is_king": false,
+    "last_king_time": 0,
+    "share_num": 0,
+    "total_amount": 0,
+    "bonding_progress": 11.98,
+    "king_progress": 0,
+    "time": 1738470005000
+  }
+]
+[2025-02-17T06:04:06.691Z] 
+=== Processing Project ===
+[2025-02-17T06:04:06.691Z] Project: {
+  "created_at": 1738470013000,
+  "updated_at": 1739760409000,
+  "id": 988365,
+  "account": "GMQhoFBWzN5f3EdjBgC2CFMD2Y1fjoBKaCnEeT68d4mi",
+  "account_data": {
+    "created_at": 1737555643000,
+    "updated_at": 1739754001000,
+    "id": 546
+  },
+  "address": "E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm",
+  "DApp": "sexy",
+  "pool_address": "67Uqa7jAVkscwBJMdVevcR7ahxnAVSPsywbUoeBLMmfQ",
+  "token_name": "WarhammeYG",
+  "token_symbol": "WARHAMMEYG",
+  "token_decimals": 6,
+  "token_supply": "0",
+  "initial_sol": "0",
+  "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg",
+  "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/tMTOVYandG.jpg",
+  "ticker": "YandG",
+  "about_us": "They are soul mates and have some kind of fate.",
+  "website": "",
+  "x": "",
+  "tg": "",
+  "discord": "",
+  "like": 29,
+  "un_like": 0,
+  "super_like": 0,
+  "pre_paid": 0,
+  "pre_paid_amount": "0",
+  "collect": 0,
+  "comment": 0,
+  "is_collect": false,
+  "is_like": false,
+  "is_un_like": false,
+  "is_pre_paid": false,
+  "boost_time": 0,
+  "status": 1,
+  "is_show": false,
+  "concentrated_holdings": false,
+  "initiative_launching": false,
+  "is_king": false,
+  "last_king_time": 0,
+  "share_num": 0,
+  "total_amount": 0,
+  "bonding_progress": 11.98,
+  "king_progress": 0,
+  "time": 1738470005000
+}
+[2025-02-17T06:04:06.691Z] 
+=== Liking Project ===
+[2025-02-17T06:04:06.691Z] Project ID: 988365
+[2025-02-17T06:04:06.691Z] Auth Token: 7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706
+[2025-02-17T06:04:06.691Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project/like
+[2025-02-17T06:04:06.691Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:04:06.691Z] Request Body: {"id":988365}
+[2025-02-17T06:04:13.513Z] Response Status: 200
+[2025-02-17T06:04:13.513Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "80",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:04:13 GMT",
+  "server": "nginx"
+}
+[2025-02-17T06:04:13.513Z] Response Body: {"code":0,"data":{"likeNum":1,"point":"0.0000685785225211","projectLikeNum":30}}
+[2025-02-17T06:04:13.513Z] Parsed Response: {
+  "code": 0,
+  "data": {
+    "likeNum": 1,
+    "point": "0.0000685785225211",
+    "projectLikeNum": 30
+  }
+}
+[2025-02-17T06:04:13.513Z] Waiting 100ms before next like...
+[2025-02-17T06:04:13.614Z] 
+=== Processing Token ===
+[2025-02-17T06:04:13.614Z] Current Token: 28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:13.614Z] 
+=== Getting Projects ===
+[2025-02-17T06:04:13.614Z] Target Token: 28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:13.614Z] Auth Token: 7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706
+[2025-02-17T06:04:13.614Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project?address=28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:13.614Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:04:15.740Z] Response Status: 200
+[2025-02-17T06:04:15.741Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-encoding": "gzip",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:04:15 GMT",
+  "server": "nginx",
+  "transfer-encoding": "chunked",
+  "vary": "Accept-Encoding"
+}
+[2025-02-17T06:04:15.741Z] Response Body: {"code":0,"data":[{"created_at":1737738252000,"updated_at":1739760417000,"id":986554,"account":"3uVTQP8udUZ12i6MTwR6LF4kZo8KXtHPCWk1zph3yFj1","account_data":{"created_at":1737691185000,"updated_at":1739754001000,"id":773},"address":"28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz","DApp":"sexy","pool_address":"2CrFiFxPZkquXjSjzaoSjwy4UsyQGAFZkVtHYcp87GeB","token_name":"GoldenFur","token_symbol":"GOLDENFUR","token_decimals":6,"token_supply":"0","initial_sol":"0","icon":"https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png","video":"https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png","ticker":"GFR","about_us":"GoldenFur – A token as bold as the golden mane. It represents strength, uniqueness, and the bright future of crypto.","website":"","x":"","tg":"","discord":"","like":30,"un_like":0,"super_like":0,"pre_paid":0,"pre_paid_amount":"0","collect":0,"comment":0,"is_collect":false,"is_like":false,"is_un_like":false,"is_pre_paid":false,"boost_time":0,"status":1,"is_show":false,"concentrated_holdings":false,"initiative_launching":false,"is_king":false,"last_king_time":0,"share_num":0,"total_amount":0,"bonding_progress":11.98,"king_progress":0,"time":1737738234000}]}
+[2025-02-17T06:04:15.741Z] Parsed Response: {
+  "code": 0,
+  "data": [
+    {
+      "created_at": 1737738252000,
+      "updated_at": 1739760417000,
+      "id": 986554,
+      "account": "3uVTQP8udUZ12i6MTwR6LF4kZo8KXtHPCWk1zph3yFj1",
+      "account_data": {
+        "created_at": 1737691185000,
+        "updated_at": 1739754001000,
+        "id": 773
+      },
+      "address": "28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz",
+      "DApp": "sexy",
+      "pool_address": "2CrFiFxPZkquXjSjzaoSjwy4UsyQGAFZkVtHYcp87GeB",
+      "token_name": "GoldenFur",
+      "token_symbol": "GOLDENFUR",
+      "token_decimals": 6,
+      "token_supply": "0",
+      "initial_sol": "0",
+      "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png",
+      "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png",
+      "ticker": "GFR",
+      "about_us": "GoldenFur – A token as bold as the golden mane. It represents strength, uniqueness, and the bright future of crypto.",
+      "website": "",
+      "x": "",
+      "tg": "",
+      "discord": "",
+      "like": 30,
+      "un_like": 0,
+      "super_like": 0,
+      "pre_paid": 0,
+      "pre_paid_amount": "0",
+      "collect": 0,
+      "comment": 0,
+      "is_collect": false,
+      "is_like": false,
+      "is_un_like": false,
+      "is_pre_paid": false,
+      "boost_time": 0,
+      "status": 1,
+      "is_show": false,
+      "concentrated_holdings": false,
+      "initiative_launching": false,
+      "is_king": false,
+      "last_king_time": 0,
+      "share_num": 0,
+      "total_amount": 0,
+      "bonding_progress": 11.98,
+      "king_progress": 0,
+      "time": 1737738234000
+    }
+  ]
+}
+[2025-02-17T06:04:15.741Z] Found 1 projects
+[2025-02-17T06:04:15.741Z] Found 1 projects for token 28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:15.741Z] Projects: [
+  {
+    "created_at": 1737738252000,
+    "updated_at": 1739760417000,
+    "id": 986554,
+    "account": "3uVTQP8udUZ12i6MTwR6LF4kZo8KXtHPCWk1zph3yFj1",
+    "account_data": {
+      "created_at": 1737691185000,
+      "updated_at": 1739754001000,
+      "id": 773
+    },
+    "address": "28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz",
+    "DApp": "sexy",
+    "pool_address": "2CrFiFxPZkquXjSjzaoSjwy4UsyQGAFZkVtHYcp87GeB",
+    "token_name": "GoldenFur",
+    "token_symbol": "GOLDENFUR",
+    "token_decimals": 6,
+    "token_supply": "0",
+    "initial_sol": "0",
+    "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png",
+    "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png",
+    "ticker": "GFR",
+    "about_us": "GoldenFur – A token as bold as the golden mane. It represents strength, uniqueness, and the bright future of crypto.",
+    "website": "",
+    "x": "",
+    "tg": "",
+    "discord": "",
+    "like": 30,
+    "un_like": 0,
+    "super_like": 0,
+    "pre_paid": 0,
+    "pre_paid_amount": "0",
+    "collect": 0,
+    "comment": 0,
+    "is_collect": false,
+    "is_like": false,
+    "is_un_like": false,
+    "is_pre_paid": false,
+    "boost_time": 0,
+    "status": 1,
+    "is_show": false,
+    "concentrated_holdings": false,
+    "initiative_launching": false,
+    "is_king": false,
+    "last_king_time": 0,
+    "share_num": 0,
+    "total_amount": 0,
+    "bonding_progress": 11.98,
+    "king_progress": 0,
+    "time": 1737738234000
+  }
+]
+[2025-02-17T06:04:15.741Z] 
+=== Processing Project ===
+[2025-02-17T06:04:15.741Z] Project: {
+  "created_at": 1737738252000,
+  "updated_at": 1739760417000,
+  "id": 986554,
+  "account": "3uVTQP8udUZ12i6MTwR6LF4kZo8KXtHPCWk1zph3yFj1",
+  "account_data": {
+    "created_at": 1737691185000,
+    "updated_at": 1739754001000,
+    "id": 773
+  },
+  "address": "28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz",
+  "DApp": "sexy",
+  "pool_address": "2CrFiFxPZkquXjSjzaoSjwy4UsyQGAFZkVtHYcp87GeB",
+  "token_name": "GoldenFur",
+  "token_symbol": "GOLDENFUR",
+  "token_decimals": 6,
+  "token_supply": "0",
+  "initial_sol": "0",
+  "icon": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png",
+  "video": "https://flipn.s3.us-east-1.amazonaws.com/flipn/stg/RqvjmFSLEj20250125010327.png",
+  "ticker": "GFR",
+  "about_us": "GoldenFur – A token as bold as the golden mane. It represents strength, uniqueness, and the bright future of crypto.",
+  "website": "",
+  "x": "",
+  "tg": "",
+  "discord": "",
+  "like": 30,
+  "un_like": 0,
+  "super_like": 0,
+  "pre_paid": 0,
+  "pre_paid_amount": "0",
+  "collect": 0,
+  "comment": 0,
+  "is_collect": false,
+  "is_like": false,
+  "is_un_like": false,
+  "is_pre_paid": false,
+  "boost_time": 0,
+  "status": 1,
+  "is_show": false,
+  "concentrated_holdings": false,
+  "initiative_launching": false,
+  "is_king": false,
+  "last_king_time": 0,
+  "share_num": 0,
+  "total_amount": 0,
+  "bonding_progress": 11.98,
+  "king_progress": 0,
+  "time": 1737738234000
+}
+[2025-02-17T06:04:15.742Z] 
+=== Liking Project ===
+[2025-02-17T06:04:15.742Z] Project ID: 986554
+[2025-02-17T06:04:15.742Z] Auth Token: 7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706
+[2025-02-17T06:04:15.742Z] Request URL: https://api.stg.dumpdump.fun/api/v1/project/like
+[2025-02-17T06:04:15.742Z] Request Headers: {
+  "Content-Type": "application/json",
+  "Authorization": "7eddd6092ab904768071e968fd7a17b888f8af955fa0111de70cfae1256e8a5cc8846ee583565ce8751e1c375b6f11017bb25b628945dcd8776fa488d7055706",
+  "Origin": "https://stage.flipn.fun",
+  "Referer": "https://stage.flipn.fun/"
+}
+[2025-02-17T06:04:15.742Z] Request Body: {"id":986554}
+[2025-02-17T06:04:22.558Z] Response Status: 200
+[2025-02-17T06:04:22.558Z] Response Headers: {
+  "access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+  "access-control-allow-methods": "GET, POST, DELETE, PUT, OPTIONS",
+  "access-control-allow-origin": "*",
+  "connection": "close",
+  "content-length": "80",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Mon, 17 Feb 2025 06:04:22 GMT",
+  "server": "nginx"
+}
+[2025-02-17T06:04:22.558Z] Response Body: {"code":0,"data":{"likeNum":2,"point":"0.0000685785225211","projectLikeNum":31}}
+[2025-02-17T06:04:22.558Z] Parsed Response: {
+  "code": 0,
+  "data": {
+    "likeNum": 2,
+    "point": "0.0000685785225211",
+    "projectLikeNum": 31
+  }
+}
+[2025-02-17T06:04:22.558Z] Waiting 100ms before next like...
+[2025-02-17T06:04:22.660Z] Waiting 58.21824388358999ms before next wallet...
+[2025-02-17T06:04:22.719Z] 
+=== Processing wallet 2/2: 3Xedzg9yEesAwF97HoSmxoWjZGj6A3br6XbeQ2EDkMun ===
+[2025-02-17T06:04:22.720Z] Switched to wallet: 3Xedzg9yEesAwF97HoSmxoWjZGj6A3br6XbeQ2EDkMun
+[2025-02-17T06:04:22.720Z] 
+=== Starting Batch Like ===
+[2025-02-17T06:04:22.720Z] Target Tokens (3): ["2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL","E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm","28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz"]
+[2025-02-17T06:04:22.720Z] 
+=== Processing Token ===
+[2025-02-17T06:04:22.720Z] Current Token: 2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:04:22.720Z] 
+=== Getting Projects ===
+[2025-02-17T06:04:22.720Z] Target Token: 2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:04:23.854Z] Failed to get projects: AxiosError: Request failed with status code 502
+[2025-02-17T06:04:23.855Z] Found 0 projects for token 2i4Etu3ZPNwmHvzCiTWyurxMnps2ks9FCvBepfQR8rmL
+[2025-02-17T06:04:23.855Z] Projects: []
+[2025-02-17T06:04:23.855Z] 
+=== Processing Token ===
+[2025-02-17T06:04:23.855Z] Current Token: E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:23.855Z] 
+=== Getting Projects ===
+[2025-02-17T06:04:23.855Z] Target Token: E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:24.373Z] Failed to get projects: AxiosError: Request failed with status code 502
+[2025-02-17T06:04:24.373Z] Found 0 projects for token E8zhEunbvTmPsnQLUe9ZLXufSP4FPZuqCvHKvP38zMZm
+[2025-02-17T06:04:24.373Z] Projects: []
+[2025-02-17T06:04:24.373Z] 
+=== Processing Token ===
+[2025-02-17T06:04:24.373Z] Current Token: 28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:24.373Z] 
+=== Getting Projects ===
+[2025-02-17T06:04:24.373Z] Target Token: 28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:24.897Z] Failed to get projects: AxiosError: Request failed with status code 502
+[2025-02-17T06:04:24.897Z] Found 0 projects for token 28dD2ChQSuthK9fxQmbUZUKp45afkPR2HGjDTNJYyetz
+[2025-02-17T06:04:24.897Z] Projects: []
+[2025-02-17T06:04:24.897Z] Waiting 71.74295794216908ms before next wallet...

@@ -4,8 +4,13 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { generateSignatureAndGetToken } from './auth';
 import { likeConfig } from '../src/config/like.config';
+import dotenv from 'dotenv';
 
-const API_BASE_URL = 'https://api.stg.dumpdump.fun/api/v1';
+dotenv.config();
+
+const API_BASE_URL = process.env.API_BASE_URL || 'https://api.stg.dumpdump.fun/api/v1';
+const API_ORIGIN = process.env.API_ORIGIN || 'https://stage.flipn.fun';
+const API_REFERER = process.env.API_REFERER || 'https://stage.flipn.fun/';
 
 interface WalletInfo {
   timestamp: string;
@@ -98,8 +103,6 @@ export class LikeBot {
     return this.authToken;
   }
 
-
-
   // 获取项目列表
   async getProjects(targetToken: string) {
     try {
@@ -116,8 +119,8 @@ export class LikeBot {
       const headers = {
         'Content-Type': 'application/json',
         'Authorization': authToken,
-        'Origin': 'https://stage.flipn.fun',
-        'Referer': 'https://stage.flipn.fun/'
+        'Origin': API_ORIGIN,
+        'Referer': API_REFERER
       };
       
       this.log('Request Headers: ' + JSON.stringify(headers, null, 2));
@@ -167,8 +170,8 @@ export class LikeBot {
       const headers = {
         'Content-Type': 'application/json',
         'Authorization': token,
-        'Origin': 'https://stage.flipn.fun',
-        'Referer': 'https://stage.flipn.fun/'
+        'Origin': API_ORIGIN,
+        'Referer': API_REFERER
       };
       
       this.log('Request Headers: ' + JSON.stringify(headers, null, 2));
@@ -285,6 +288,8 @@ interface BatchLikeConfig {
   walletDelay: DelayConfig;
   // 点赞操作之间的延迟
   likeDelay: DelayConfig;
+  // 添加这个字段
+  existingWallets?: WalletInfo[];
 }
 
 // 执行批量点赞
@@ -292,9 +297,9 @@ async function batchLikeWithMultipleWallets(config: BatchLikeConfig) {
   const bot = new LikeBot();
   
   try {
-    // 生成指定数量的钱包
-    const wallets = bot.generateWallets(config.walletCount);
-    bot.log(`Generated ${wallets.length} wallets`);
+    // 使用现有钱包或生成新钱包
+    const wallets = config.existingWallets || bot.generateWallets(config.walletCount);
+    bot.log(`Using ${wallets.length} ${config.existingWallets ? 'existing' : 'new'} wallets`);
 
     // 为每个钱包执行点赞操作
     for (let i = 0; i < wallets.length; i++) {
@@ -331,21 +336,45 @@ async function batchLikeWithMultipleWallets(config: BatchLikeConfig) {
 
 // 修改 main 函数
 async function main() {
-    // 从命令行参数获取钱包数量
+    // 获取钱包数量和使用模式
     const walletCount = parseInt(process.argv[2]) || 3;
+    const useExistingWallets = process.argv[3] === 'existing';
     
+    let wallets: WalletInfo[] = [];
+    const bot = new LikeBot();
+
+    if (useExistingWallets) {
+        try {
+            // 从 wallets.json 读取现有钱包
+            const walletsFile = path.join(process.cwd(), 'wallets', 'wallets.json');
+            if (fs.existsSync(walletsFile)) {
+                const existingWallets = JSON.parse(fs.readFileSync(walletsFile, 'utf8'));
+                // 只使用前20个钱包
+                wallets = existingWallets.slice(0, 20);
+                console.log(`Using ${wallets.length} existing wallets from wallets.json`);
+            } else {
+                console.error('wallets.json not found. Please generate wallets first.');
+                process.exit(1);
+            }
+        } catch (error) {
+            console.error('Error reading wallets.json:', error);
+            process.exit(1);
+        }
+    }
+
     const config: BatchLikeConfig = {
-        walletCount,  // 使用命令行参数
-        targetTokens: likeConfig.targetTokens,  // 从配置文件读取
+        walletCount,
+        targetTokens: likeConfig.targetTokens,
         walletDelay: {
             random: likeConfig.delays.wallet
         },
         likeDelay: {
             fixed: likeConfig.delays.like.fixed
-        }
+        },
+        existingWallets: useExistingWallets ? wallets : undefined
     };
 
-    console.log(`Starting like bot with ${walletCount} wallets`);
+    console.log(`Starting like bot with ${useExistingWallets ? 'existing' : 'new'} wallets`);
     console.log('Target tokens:', config.targetTokens);
     
     await batchLikeWithMultipleWallets(config);
@@ -354,8 +383,10 @@ async function main() {
 // 修改执行判断
 if (require.main === module) {
     if (process.argv.length < 3) {
-        console.log('Usage: npm run like-bot <wallet_count>');
-        console.log('Example: npm run like-bot 1000');
+        console.log('Usage: npm run like <wallet_count> [existing]');
+        console.log('Examples:');
+        console.log('  npm run like 1000          # Generate and use new wallets');
+        console.log('  npm run like 20 existing   # Use existing wallets from wallets.json');
         process.exit(1);
     }
     main().catch(console.error);
